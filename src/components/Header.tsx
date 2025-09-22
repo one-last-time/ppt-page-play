@@ -47,7 +47,7 @@ const Header = () => {
             <a href="#products" className="text-foreground hover:text-primary transition-colors">Products</a>
             <Link to="/about" className="text-foreground hover:text-primary transition-colors">About Us</Link>
             <Link to="/contact" className="text-foreground hover:text-primary transition-colors">Contact Us</Link>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Scenario Pricing</a>
+            <Link to="/scenario-pricing" className="text-foreground hover:text-primary transition-colors">Scenario Pricing</Link>
           </nav>
 
           <div className="flex items-center gap-4">
